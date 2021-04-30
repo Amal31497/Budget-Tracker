@@ -1,5 +1,4 @@
 let db;
-let budgetStore;
 let BUDGETVersion = 1
 const request = indexedDB.open('TransactionsDB', BUDGETVersion || 21);
 
